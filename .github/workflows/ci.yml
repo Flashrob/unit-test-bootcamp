@@ -2,11 +2,7 @@
 name: CI
 
 # Run on push or PR to main branch
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+on: [push, pull_request]
 
 jobs:
   build:
